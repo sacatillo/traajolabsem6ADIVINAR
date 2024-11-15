@@ -111,7 +111,7 @@ public class Montes_AlbertoJUEGO {
 
     private static void cambiarPalabras() {
         palabras.clear();
-        System.out.println("Ingresa 10 palabras (una por línea):");
+        System.out.println("Ingresa 10 palabras (una por linea):");
         for (int i = 0; i < 10; i++) {
             System.out.print("Palabra " + (i + 1) + ": ");
             String palabra = scanner.nextLine();
